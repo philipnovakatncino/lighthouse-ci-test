@@ -1,0 +1,22 @@
+{
+  "name": "lighthouse-ci-test",
+  "version": "1.0.0",
+  "description": "Testing Google Lighthouse in CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipnovakatncino/lighthouse-ci-test.git"
+  },
+  "author": "Philip Novak",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/philipnovakatncino/lighthouse-ci-test/issues"
+  },
+  "homepage": "https://github.com/philipnovakatncino/lighthouse-ci-test#readme",
+  "dependencies": {
+    "lighthouse": "^2.5.0"
+  }
+}
