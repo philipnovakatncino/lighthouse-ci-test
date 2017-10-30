@@ -6,8 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Greeting
-          command: echo Hello, world.
-      - run:
-          name: Lighthouse Report
-          command: lighthouse https://airhorner.com/ --chrome-flags="--headless" --config-path=lighthouse-config.json --output=json --output-path=lighthouse-report.json
+          name: Test Node
+          command: node -v
+#      - run:
+#          name: Lighthouse Report
+#          command: lighthouse https://airhorner.com/ --chrome-flags="--headless" --config-path=lighthouse-config.json --output=json --output-path=lighthouse-report.json
