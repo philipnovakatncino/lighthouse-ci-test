@@ -9,5 +9,5 @@ jobs:
           name: Greeting
           command: echo Hello, world.
       - run:
-          name: Print the Current Time
-          command: date
+          name: Lighthouse Report
+          command: lighthouse https://airhorner.com/ --chrome-flags="--headless" --config-path=lighthouse-config.json --output=json --output-path=lighthouse-report.json
